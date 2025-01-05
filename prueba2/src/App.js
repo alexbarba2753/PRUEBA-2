@@ -5,7 +5,7 @@ import Home from './pages/Home';
 import About from './pages/About';
 import Tienda from './pages/Tienda';
 import Ubicacion from './pages/Ubicacion';
-import './styles/App.css'; // Importando los estilos globales
+import './App.css'; // Importando los estilos globales
 
 const App = () => {
   return (
