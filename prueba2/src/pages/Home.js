@@ -4,11 +4,11 @@ import Formulario from '../componentes/componentes home/Formulario';
 import Productos_home from '../componentes/componentes home/Productos_home';
 import Video_home from '../componentes/componentes home/Video_home';
 import Footer from '../componentes/Footer';
-import '../styles/Home.css';  // Asegúrate de tener los estilos globales
+import '../styles/Home.css'; 
 
 const Home = () => {
     return (
-        <div>
+        <div className='landingpage'>
             <Header_home />
             <Video_home />
             <Productos_home />  

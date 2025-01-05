@@ -5,8 +5,8 @@
   scroll-behavior: smooth;
 }
 
-body{
-  background-color: #fff;
+.landingpage{
+  background-color: #000;
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Bebas+Neue&display=swap');
@@ -17,6 +17,7 @@ body{
 header{
   background: url("../imagenes/fondo-cotopaxi.jpg") center / cover fixed;
   height: auto;
+
 }
 
 .opacidad{
