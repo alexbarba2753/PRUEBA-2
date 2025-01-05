@@ -1,9 +1,8 @@
 import React from 'react';
-import fondo from '../assets/imagenes/fondo.jpg'; // Importación de la imagen de fondo
 
 const Mapa_ubicacion = () => {
     return (
-        <section className="opaco" style={{ backgroundImage: `url(${fondo})` }}>
+        <section className="opaco">
             <div className="titulo">
                 <h2 className="titulo_mapa">Mapa de Nuestras Sucursales</h2>
             </div>

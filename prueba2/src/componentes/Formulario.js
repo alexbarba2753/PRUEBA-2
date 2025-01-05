@@ -1,5 +1,5 @@
 import React from 'react';
-import imagenFormulario from '../../imagenes/cargadores del formulario.jpg';  // Importar la imagen
+import imagenFormulario from '../imagenes/cargadores del formulario.jpg'; 
 
 const Formulario = () => {
     return (

@@ -1,4 +1,6 @@
 import React from 'react';
+import vela from '../imagenes/vela.jpeg';
+import vela2 from '../imagenes/vela2.jpg';  
 
 const Cuerpo_about = () => {
     return (
@@ -7,7 +9,7 @@ const Cuerpo_about = () => {
                 <div className="arriba">
                     <div className="arriba2">
                         <div className="imagenes">
-                            <img src="imagenes/vela2.jpg" alt="Imagen de energía portátil" className="imagen1" />
+                            <img src={vela} alt="Imagen de energía portátil" className="imagen1" /> {/* Usar la imagen importada */}
                         </div>
                         <div className="parrafo2">
                             <p>
@@ -38,7 +40,7 @@ const Cuerpo_about = () => {
                             </p>
                         </div>
                         <div className="imagenes">
-                            <img src="imagenes/vela2.jpg" alt="Imagen de visión energética" className="imagen1" />
+                            <img src={vela2} alt="Imagen de visión energética" className="imagen1" /> {/* Usar la imagen importada */}
                         </div>
                     </div>
                 </div>

@@ -1,6 +1,6 @@
 import React from 'react';
-import { Link } from 'react-router-dom'; // Importamos Link para la navegación interna
-import logo from '../imagenes/foco-removebg-preview.png'// Importamos la imagen correctamente
+import { Link } from 'react-router-dom';
+import logo from '../imagenes/foco-removebg-preview.png'
 
 const Header = () => {
     return (

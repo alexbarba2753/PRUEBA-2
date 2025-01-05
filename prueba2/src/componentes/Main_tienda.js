@@ -1,15 +1,14 @@
 import React from 'react';
 
-// Importación de las imágenes
-import retirotienda from '../assets/imagenes/retirotienda.png';
-import seguro from '../assets/imagenes/seguro.png';
-import enviograt from '../assets/imagenes/enviograt.png';
-import generador1 from '../assets/imagenes/GENERADOR1.jpg';
-import generador2 from '../assets/imagenes/GENERADOR2.png';
-import generador3 from '../assets/imagenes/generador3.jpg';
-import generador4 from '../assets/imagenes/GENERADOR4.webp';
-import generador5 from '../assets/imagenes/GENERADOR5.jpg';
-import generador6 from '../assets/imagenes/GENERADOR6.jpg';
+import retirotienda from '../imagenes/retirotienda.png';
+import seguro from '../imagenes/seguro.png';
+import enviograt from '../imagenes/enviograt.png';
+import generador1 from '../imagenes/GENERADOR1.jpg';
+import generador2 from '../imagenes/GENERADOR2.png';
+import generador3 from '../imagenes/generador3.jpg';
+import generador4 from '../imagenes/GENERADOR4.webp';
+import generador5 from '../imagenes/GENERADOR5.jpg';
+import generador6 from '../imagenes/GENERADOR6.jpg';
 
 const Main_tienda = () => {
     return (

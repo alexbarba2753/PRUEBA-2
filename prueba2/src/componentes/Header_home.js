@@ -1,6 +1,6 @@
 import React from "react";
-import logo from "../../imagenes/foco-removebg-preview.png";
-import heroImage from "../../imagenes/imagen generado.jpeg";
+import logo from "../imagenes/foco-removebg-preview.png";
+import heroImage from "../imagenes/imagen generado.jpeg";
 import { Link } from 'react-router-dom';
 
 function Header_home() {

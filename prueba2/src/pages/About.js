@@ -1,17 +1,15 @@
-// src/pages/About.js
 import React from 'react';
 import Header from '../componentes/Header';
 import Footer from '../componentes/Footer';
 import '../styles/About.css';
+import '../styles/App.css';
+import Cuerpo_about from '../componentes/Cuerpo_about';
 
 const About = () => {
     return (
         <div className="about">
             <Header />
-            <main className="about-main">
-                <h1>Quiénes Somos</h1>
-                <p>Somos una empresa dedicada a ofrecer soluciones energéticas sostenibles.</p>
-            </main>
+            <Cuerpo_about/>
             <Footer />
         </div>
     );
