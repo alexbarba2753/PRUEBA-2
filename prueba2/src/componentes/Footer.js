@@ -5,8 +5,6 @@ const Footer = () => {
         <footer className="footer">
             <ul className="social-icon">
                 <li className="icon-elem">
-                </li>
-                <li className="icon-elem">
                     <a href="https://www.facebook.com/profile.php?id=100093863242106" target="_blank" rel="noopener noreferrer" className="icon">
                         <i className="fa-brands fa-facebook"></i>
                     </a>

@@ -1,4 +1,5 @@
 import React from 'react';
+import imagenFormulario from '../../imagenes/cargadores del formulario.jpg';  // Importar la imagen
 
 const Formulario = () => {
     return (
@@ -18,7 +19,7 @@ const Formulario = () => {
                     <button type="submit">Enviar</button>
                 </form>
                 <div className="image-container">
-                    <img src="imagenes/cagadores del formulario.jpg" alt="Imagen de contacto" />
+                    <img src={imagenFormulario} alt="Imagen de contacto" />  {/* Usar la variable importada */}
                 </div>
             </div>
         </section>
@@ -26,3 +27,4 @@ const Formulario = () => {
 };
 
 export default Formulario;
+
