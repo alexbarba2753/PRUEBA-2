@@ -1,7 +1,7 @@
 // src/pages/Home.js
 import React from 'react';
-import Header from '../components/Header';  // Importando el Header
-import Footer from '../components/Footer';  // Importando el Footer
+import Header from '../componentes/Header';  // Importando el Header
+import Footer from '../componentes/Footer';  // Importando el Footer
 import '../styles/Home.css';  // Importando los estilos específicos para la página
 
 const Home = () => {

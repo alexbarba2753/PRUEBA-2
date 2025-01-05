@@ -1,7 +1,7 @@
 // src/pages/Ubicacion.js
 import React from 'react';
-import Header from '../components/Header';
-import Footer from '../components/Footer';
+import Header from '../componentes/Header';
+import Footer from '../componentes/Footer';
 import '../styles/Ubicacion.css';
 
 const Ubicacion = () => {

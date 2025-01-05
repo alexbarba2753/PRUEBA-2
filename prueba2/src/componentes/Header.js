@@ -1,6 +1,6 @@
 // src/components/Header.js
 import React from 'react';
-import logo from '../assets/imagenes/logo.png'; // Importando la imagen
+//import logo from './imagenes/logo.png'; // Importando la imagen
 
     const Header = () => {
     return (
