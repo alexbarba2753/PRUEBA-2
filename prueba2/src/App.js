@@ -1,9 +1,23 @@
-import './App.css';
+// src/App.js
+import React from 'react';
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+import Home from './pages/Home';
+import About from './pages/About';
+import Tienda from './pages/Tienda';
+import Ubicacion from './pages/Ubicacion';
+import './styles/App.css'; // Importando los estilos globales
 
-function App() {
+const App = () => {
   return (
-    <h1>Hola</h1>
+    <Router>
+      <Switch>
+        <Route path="/" exact component={Home} />
+        <Route path="/about" component={About} />
+        <Route path="/tienda" component={Tienda} />
+        <Route path="/ubicacion" component={Ubicacion} />
+      </Switch>
+    </Router>
   );
-}
+};
 
 export default App;

@@ -1,5 +1,6 @@
 {
   "dependencies": {
-    "create-react-g": "^1.2.0"
+    "create-react-g": "^1.2.0",
+    "react-router-dom": "^7.1.1"
   }
 }
