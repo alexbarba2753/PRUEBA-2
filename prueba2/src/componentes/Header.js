@@ -1,19 +1,20 @@
 import React from 'react';
-import './styles/Header_1.css'; // Asegúrate de tener el archivo de estilos correspondiente
+import { Link } from 'react-router-dom'; // Importamos Link para la navegación interna
+import logo from '../imagenes/foco-removebg-preview.png'// Importamos la imagen correctamente
 
 const Header = () => {
     return (
         <header>
             <div className="menu">
                 <div className="logo">
-                    <img src="imagenes/foco-removebg-preview.png" alt="logo de la compañía" />
+                    <img src={logo} alt="logo de la compañía" />
                     <h2 className="nombre-empresa">EnerGy Pure</h2>
                 </div>
                 <nav className="navbar">
-                    <a href="index.html" className="nav-link">Inicio</a>
-                    <a href="tienda.html" className="nav-link">Tienda</a>
-                    <a href="#" className="nav-link">¿Quiénes Somos?</a>
-                    <a href="ubicacion.html" className="nav-link">Ubicación</a>
+                    <Link to="/" className="nav-link">Inicio</Link>
+                    <Link to="/tienda" className="nav-link">Tienda</Link>
+                    <Link to="/quienes-somos" className="nav-link">¿Quiénes Somos?</Link>
+                    <Link to="/ubicacion" className="nav-link">Ubicación</Link>
                 </nav>
             </div>
         </header>

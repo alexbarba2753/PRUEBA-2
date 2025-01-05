@@ -1,23 +1,21 @@
-// src/App.js
 import React from 'react';
-import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Home from './pages/Home';
-import About from './pages/About';
 import Tienda from './pages/Tienda';
+import QuienesSomos from './pages/About';
 import Ubicacion from './pages/Ubicacion';
-import './App.css'; // Importando los estilos globales
 
 const App = () => {
-  return (
-    <Router>
-      <Switch>
-        <Route path="/" exact component={Home} />
-        <Route path="/about" component={About} />
-        <Route path="/tienda" component={Tienda} />
-        <Route path="/ubicacion" component={Ubicacion} />
-      </Switch>
-    </Router>
-  );
+    return (
+        <Router>
+            <Routes>
+                <Route path="/" element={<Home />} /> {/* Página principal */}
+                <Route path="/tienda" element={<Tienda />} />
+                <Route path="/quienes-somos" element={<QuienesSomos />} />
+                <Route path="/ubicacion" element={<Ubicacion />} />
+            </Routes>
+        </Router>
+    );
 };
 
 export default App;

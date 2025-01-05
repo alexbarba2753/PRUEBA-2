@@ -1,5 +1,4 @@
 import React from 'react';
-import './styles/Main.css'; // Estilos correspondientes
 
 // Importación de las imágenes
 import retirotienda from '../assets/imagenes/retirotienda.png';

@@ -1,5 +1,4 @@
 import React from 'react';
-import './styles/Cuerpo.css'; // Asegúrate de tener el archivo de estilos correspondiente
 
 const Cuerpo_about = () => {
     return (

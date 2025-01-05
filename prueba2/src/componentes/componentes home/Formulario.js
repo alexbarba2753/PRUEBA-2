@@ -1,5 +1,4 @@
 import React from 'react';
-import './styles/Formulario.css'; // Asegúrate de tener el archivo de estilos correspondiente
 
 const Formulario = () => {
     return (

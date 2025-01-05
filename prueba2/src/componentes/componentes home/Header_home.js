@@ -1,46 +1,41 @@
-// src/components/Header.js
-import React from 'react';
-// Importando las imágenes
-import logo from '../assets/imagenes/foco-removebg-preview.png';
-import menuIcon from '../assets/imagenes/menu.png';
-import headerImage from '../assets/imagenes/imagen generado.jpeg';
+import React from "react";
+import logo from "../../imagenes/foco-removebg-preview.png";
+import heroImage from "../../imagenes/fondo-cotopaxi.jpg";
+import { Link } from 'react-router-dom';
 
-const Header_home = () => {
+function Header_home() {
     return (
         <header>
             <div className="opacidad">
                 <div className="menu">
                     <div className="logo">
-                        <img src={logo} alt="logo de la compañía" />
+                        <img src={logo} alt="logo de la compañia" />
                         <h2 className="nombre-empresa">EnerGy Pure</h2>
                     </div>
-                    <input type="checkbox" id="hmbrg" />
-                    <label htmlFor="hmbrg">
-                        <img src={menuIcon} className="icon-hmbrg" alt="Menú" />
-                    </label>
                     <nav className="navbar">
-                        <a href="#" className="nav-link">Inicio</a>
-                        <a href="tienda.html" className="nav-link">Tienda</a>
-                        <a href="quienes-somos.html" className="nav-link">¿Quiénes Somos?</a>
-                        <a href="ubicacion.html" className="nav-link">Ubicación</a>
+                        <Link to="/" className="nav-link">Inicio</Link>
+                        <Link to="/tienda" className="nav-link">Tienda</Link>
+                        <Link to="/quienes-somos" className="nav-link">¿Quiénes Somos?</Link>
+                        <Link to="/ubicacion" className="nav-link">Ubicación</Link>
                     </nav>
                 </div>
 
+                {/* Hero Section */}
                 <div className="hero">
                     <div className="texto-header">
                         <div className="text-btn">
-                            <h1>Soluciones de Energía <br /> <span>para Cada Momento</span></h1>
-                            <p>Enfrenta los apagones con tranquilidad. En EnerGy Pure, ofrecemos una línea completa de generadores eléctricos, focos recargables y cargadores portátiles diseñados para que nunca te falte energía cuando más la necesitas. Con soluciones confiables y accesibles, estamos aquí para ayudarte a mantener tu hogar iluminado y tus dispositivos activos, sin importar las circunstancias.</p>
-                            <a className="btn-info" href="#sec-vid"><button>Más Información</button></a>
+                        <h1>Soluciones de Energía <br /> <span>para Cada Momento</span></h1>
+                        <p>Enfrenta los apagones con tranquilidad. En EnerGy Pure, ofrecemos una línea completa de generadores eléctricos, focos recargables y cargadores portátiles diseñados para que nunca te falte energía cuando más la necesitas. Con soluciones confiables y accesibles, estamos aquí para ayudarte a mantener tu hogar iluminado y tus dispositivos activos, sin importar las circunstancias.</p>
+                        <a className="btn-info" href="#sec-vid"><button>Más Información</button></a>
                         </div>
                     </div>
                     <div className="imagen-header">
-                        <img src={headerImage} alt="Imagen de energía" />
+                        <img src={heroImage} alt="Imagen del Hero" />
                     </div>
                 </div>
             </div>
         </header>
     );
-};
+}
 
 export default Header_home;
