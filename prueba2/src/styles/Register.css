@@ -1,0 +1,108 @@
+/* Contenedor del formulario de registro */
+
+.registerxd{
+    background: url("../imagenes/fondo-cotopaxi.jpg") center / cover fixed;
+    height: 100vh;
+    }
+
+  .opacoregister{
+    background-color: #0006;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+.regiter{
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+}
+
+.fa-solid{
+    color: #fff;
+    text-decoration: none;
+}
+.equis{
+    font-size: 15px;
+    background: #007bff;
+    border-radius: 50%;
+    padding: 6px;
+    border: 2px solid #fffa;
+    display: flex;
+    width: 10px;
+    justify-content: center;
+    margin-bottom: 10px;
+    text-decoration: none;
+    
+  }
+
+.register-container {
+    background-color: #fff;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 350px;
+    margin: 0 auto;
+  }
+  
+  /* Título */
+  .register-container h1 {
+    margin-bottom: 1.5rem;
+    font-size: 1.5rem;
+    color: #333;
+  }
+  
+  /* Etiquetas */
+  .register-container label {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-size: 0.9rem;
+    color: #555;
+    text-align: left;
+  }
+  
+  /* Campos de entrada */
+  .register-container input {
+    width: 100%;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 1rem;
+  }
+  
+  /* Botón de registro */
+  .register-container button {
+    width: 100%;
+    padding: 0.5rem;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    font-size: 1rem;
+    cursor: pointer;
+  }
+  
+  .register-container button:hover {
+    background-color: #007bffaa;
+  }
+  
+  /* Enlace para iniciar sesión */
+  .register-container p {
+    margin-top: 1rem;
+    font-size: 0.9rem;
+    color: #555;
+  }
+  
+  .register-container a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  .register-container a:hover {
+    text-decoration: underline;
+  }
+  
